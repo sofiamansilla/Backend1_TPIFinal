@@ -1,0 +1,34 @@
+/*Ciclo de vida del test
+*
+*
+* @Test Es necesario anotar cada metodo para que JUit lo reconozca como un test y lo ejecute
+* @ParameterizedTest permite correr el test con multiples argumentos, puede tomar los parametros de diferentes fuentes, como un metodo, unos valore so un archivo CSV.
+* @Disable Deshabilitar un test para que no se ejecute, un test anotado asi, sera ignorado.
+* @BeforeEach ejecuta un metodo antes de la ejecucion de cada test
+* @AfterEach ejecuta un metodo despues de la ejeccion de cada test
+* @BeforeAll ejecuta un metodo antes de la ejecucion de todos los test de la clase
+* @AfterAll ejecuta un metodo despues de la ejecución de todos los test de la clase
+*
+*
+* Asserts:
+*
+    assertArrayEquals
+    assertEquals
+    assertTrue and assertFalse
+    assertNull and assertNotNull
+    assertSame and assertNotSame
+    assertAll
+    assertNotEquals
+    assertIterableEquals
+    assertThrows
+    assertTimeout and assertTimeoutPreemptively
+    assertLinesMatch
+
+*
+*
+* ARRANGE: Requisitos que debe cumplir el codigo
+* ACT: Acá se ejecuta el test que dará lugar a los resultados que debemos analizar
+* ASSERT: COmprobar si los resultados obtenidos son los esperados y si no, continuar hasta que el error desapareszca
+*
+*
+* */

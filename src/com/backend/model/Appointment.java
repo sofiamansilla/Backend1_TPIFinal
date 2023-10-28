@@ -1,3 +1,5 @@
+package com.backend.model;
+
 import java.time.LocalDate;
 import java.time.LocalTime;
 
